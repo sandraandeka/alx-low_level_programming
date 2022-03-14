@@ -9,12 +9,12 @@ int main(void)
 
 {
 	char alb;
-	
+
 	for (alb = 'a'; alb <= 'z'; alb++)
 	{
 		putchar(alb);
-		putchar('\n');
 	}
+	putchar("\n");
 
 	return (0);
 }
