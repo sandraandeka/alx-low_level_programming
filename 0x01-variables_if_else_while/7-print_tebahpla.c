@@ -13,7 +13,8 @@ int main(void)
 	for (alb = 'z'; alb >= 'a'; alb--)
 	{
 		putchar(alb);
-		putchar('\n');
 	}
+		putchar('\n');
+
 	return (0);
 }
