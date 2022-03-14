@@ -8,17 +8,14 @@
  */
 int main(void)
 {
-	char alb, e, q;
-	
-	e = 'e';
-	q = 'q';
+	char alb;
 
 	for (alb = 'a'; alb <= 'z'; alb++)
 	{
-		if (alb != e && alb != q)
+		if (alb != 'e' && alb != 'q')
 			putchar(alb);
 	}
-	
+
 	putchar('\n');
 
 	return (0);
