@@ -7,11 +7,15 @@
  */
 int main(void)
 {
-	char c;
+	char *ip = '_putchar';
 
-	c = "_putchar";
+	while (*ip)
+	{
+		_putchar(*ip);
+		ip++;
+	}
+	_putchar('\n');
 
-	putchar(c);
 
 	return (0);
 }
