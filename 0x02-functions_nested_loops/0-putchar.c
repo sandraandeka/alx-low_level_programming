@@ -1,9 +1,10 @@
 #include <unistd.h>
 #include "main.h"
+
 /**
  * main - Check description
  * Description: It prints the word _putchar, followed by a new line.
- * Return: Always 0 (succes)
+ * Return: 0. 
  *
  */
 int main(void)
