@@ -1,18 +1,19 @@
+#include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
- *
+ * main - Check description
+ * Description: It prints the word _putchar, followed by a new line.
  * Return: Always 0 (succes)
  *
  */
 int main(void)
 {
-	char *ip = '_putchar';
+	char word[8] = "_putchar";
+	int i;
 
-	while (*ip)
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(*ip);
-		ip++;
+		_putchar(word[i]);
 	}
 	_putchar('\n');
 
