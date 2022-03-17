@@ -22,5 +22,15 @@ void print_alphabet(void);
  */
 void print_alphabet_x10(void);
 
+/**
+ * Prints lowercase alphabets and checks if c is lower then returns 1
+ */
+int _islower(int c);
+
+/**
+ * Checks if its an alphabet then return 1
+ */
+int _isalpha(int c);
+
 
 #endif
