@@ -42,5 +42,31 @@ int  print_sign(int n);
  */
 int _abs(int n);
 
+/**
+ * prints the last digit in a number
+ */
+int print_last_digit(int r);
+
+/**
+ * prints two digits
+ */
+
+void jack_bauer(void);
+
+/**
+ * print multiples of 9
+ */
+void times_table(void);
+
+/**
+ * adds two numbers
+ */
+int add(int a, int b);
+
+/**
+ * prints number to 98
+ */
+void print_to_98(int n);
+
 
 #endif
