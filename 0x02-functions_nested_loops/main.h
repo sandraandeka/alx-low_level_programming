@@ -32,5 +32,15 @@ int _islower(int c);
  */
 int _isalpha(int c);
 
+/**
+ * Prints the sign in a character
+ */
+int  print_sign(int n);
+
+/**
+ * prints out an absolute integer
+ */
+int _abs(int n);
+
 
 #endif
