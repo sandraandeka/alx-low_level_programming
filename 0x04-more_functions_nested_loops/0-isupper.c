@@ -8,19 +8,13 @@
 
 int _isupper(int c)
 {
-	char ALB = 'A';
-	int num = 0;
-
-	for (ALB = 'A'; ALB <= 'Z'; ALB++)
+	if ((c >= 'A') && (c <= 'Z'))
 	{
-		if (c == ALB)
-		{
-			num = 1;
-		}
-		else
-		{
-			num = 0;
-		}
+		return (1);
 	}
-	return (num);
+	else
+	{
+		return (0);
+	}
+
 }
