@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - Entry point
+ * _strncpy - appends src to the dest string
  * @dest: copy to
  * @src: copy from
  * @n: input number of char
@@ -9,13 +9,19 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; src[i] != '\0'; i++)
-		if (i < n)
-			dest[i] = src[i];
-		while (i < n)
-			dest[i++] = '\0';
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while (j < n && *(src + j))
+	{
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
+	}
+	if (j < n)
+		*(dest + i) = *(src + j);
 
 	return (dest);
 }
