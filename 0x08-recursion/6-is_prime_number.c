@@ -10,7 +10,7 @@ int prime_check(int r, int p)
 {
 	if (p < 2 || p % r == 0)
 		return (0);
-	else if (r > p)
+	else if (r > p / 2)
 		return (1);
 	else
 		return (prime_check(r + 1, p));
