@@ -8,9 +8,8 @@
 3-alloc_grid.c - function that returns a pointer to a 2 dimensional array of integers.
 
 4-free_grid.c - function that frees a 2 dimansional grid previously created by the function found in 3-alloc_grid.c
-
-5-argstotr.c - function that concatenates all the arguments of the program
-
-    ADVANCED
+             
+             ADVANCED
+100-argstotr.c - function that concatenates all the arguments of the program
 
 100-strtow.c - function that splits a string into words
