@@ -13,12 +13,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *str;
-	va_list op;
+	va_list ap;
 
-	va_start(op, n);
+	va_start(ap, n);
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(op, char *);
+		str = va_arg(ap, char *);
 		if (str)
 			printf("%s", str);
 		else
@@ -28,5 +28,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 
 	printf("\n");
-	va_end(op);
+	va_end(ap);
 }
