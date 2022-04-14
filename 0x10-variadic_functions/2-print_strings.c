@@ -1,4 +1,4 @@
-#include <strarg.h>
+#include <stdarg.h>
 #include <stdio.h>
 #include "variadic_functions.h"
 
@@ -9,7 +9,7 @@
  *
  * Return: void
  */
-void print _strings(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *str;
