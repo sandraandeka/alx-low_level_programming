@@ -18,9 +18,8 @@ int main(void)
 	for (alb = 'A'; alb <= 'Z'; alb++)
 	{
 		putchar(alb);
-	}
-
-	putchar('\n');
+	        putchar('\n');
+        }
 
 	return (0);
 }
