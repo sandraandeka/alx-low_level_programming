@@ -14,7 +14,7 @@ int _islower(int c)
 
 	for (alb = 'a'; alb <= 'z'; alb++)
 	{
-		if (alb == 'c')
+		if (alb == c)
 		{
 			check = 1;
 		}
