@@ -9,19 +9,8 @@
 int _islower(int c)
 
 {
-	char alb;
-	int check = 0;
-
-	for (alb = 'a'; alb <= 'z'; alb++)
-	{
-		if (alb == c)
-		{
-			check = 1;
-		}
-		else
-		{
-			check = 0;
-		}
-	}
-	return (check);
+	if (c >= 'a' || c <= 'z')
+		return (1);
+	else
+		return (0);
 }
